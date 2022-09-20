@@ -1,45 +1,117 @@
 /*Body formating being done here */
 body{
+    align-items: center;
     background-color: rgb(192, 242, 255) ;
+    background-image: url(/images/hd-wallpaper-2468874.jpg);
     
 }
 
 /* navigation styles*/
 
 .flex-container{
-    /*background-color: aqua;*/
+    background-color: rgba(0, 89, 255, 0.8);
     display: flex;
+   /* position: fixed; */
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     flex: 2 1 1;
     color: rgba(7, 82, 38, 0.801);
+
 }
 
 
 .navigation{
+    color:whitesmoke;
     padding: 15px 30px;
-    border: 1px solid black;
-    margin: 10px 30px ;
-    color:rgb(28, 56, 209);
+    border: 1px solid rgba(0, 91, 255, 1);
     font-size: larger;
     font-weight: 600;
     list-style-type: none;
 }
+.navigation a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.navigation:hover{
+    cursor: pointer;
+
+}
+
+ .navigation:visited, .navigation:active{
+    color: whitesmoke;
+}
+
 
 
 /*Heading styles*/
 h1{
     align-content: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: xx-large ;
+    font-size: xxx-large ;
+    color: rgb(235, 109, 178);
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+   
 }
 
 /*Form styles*/
+.signin{
+    margin: 200px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    -ms-flex-align: center;
+}
+
+#legend{
+    font-weight: 700;
+    font-size: x-large;
+    background-color: rgb(196, 236, 18);
+    display:flex;
+    justify-content: center;
+    position:relative;
+    left: 320px;
+    padding: 5px;
+    margin-bottom: 0px;
+    
+
+    
+}
+
+.container1{
+    width: 500px;
+    background-color: rgb(196, 236, 18);
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 1 2 3;
+    font-size: larger;
+    margin-top: 0px;
+    
+}
+
+.input, .submit{
+    padding: 11px;
+    border-radius: 50px;
+    margin: 10px;
+
+}
+
+.submit:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+
 
 /*Footer styles*/
 .container2{
-    margin-top: 1000px;
+    background-color: rgb(192, 243, 6);
+    margin-top: 200px;
     font-weight: 700;
     display: flex;
     -ms-flex-align: end;

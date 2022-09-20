@@ -17,14 +17,17 @@
             </ul>
         </nav>
         <h1>Welcome!</h1><br><br>
+        <!--This is the form area, added a container in case I need to use a flexbox to style the content here-->
         <fieldset class="signin">
-            <legend>Sign In</legend>
-            <form>
-                <label >Email</label>
-                <input type="email" placeholder="email address" class="inputs">
-                <label>Password</label>
+            <legend id="legend">Sign In</legend>
+            <!--the legend here I am thinking of replacing with a <p> elemet to make it 
+                part of the form. To be added later-->
+            <form class="container1">
+                <label class="label" >Email</label>
+                <input type="email" placeholder="email address" class="input">
+                <label class="label">Password</label>
                 <input type="text" placeholder="password" maxlength="100" class="input">
-                <button>Submit</button> <br>
+                <button class="submit">Submit</button> <br>
                 <a href="#">Sign up here</a>
 
         
